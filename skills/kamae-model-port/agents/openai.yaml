@@ -1,0 +1,7 @@
+interface:
+  display_name: "Kamae Model Port"
+  short_description: "Cross-language domain model porting"
+  default_prompt:
+    - "Use $kamae-model-port to port this TypeScript domain model to Rust."
+    - "Use $kamae-model-port to translate these Python Pydantic state types to Scala."
+    - "Use $kamae-model-port to migrate this Rust domain module to TypeScript with kamae conventions."

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Kamae Model Bridge"
+  short_description: "Cross-language service interop"
+  default_prompt:
+    - "Use $kamae-model-bridge to define the wire format for events between our TS and Python services."
+    - "Use $kamae-model-bridge to set up contract tests for this gRPC boundary between Rust and Scala."
+    - "Use $kamae-model-bridge to add a new event to the cross-service schema with backward compatibility."
