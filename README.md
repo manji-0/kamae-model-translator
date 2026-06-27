@@ -1,4 +1,4 @@
-# kamae-model-converter
+# kamae-model-translator
 
 Cross-language domain model porting and service interoperability skills for the [kamae](https://github.com/iwasa-kosui/kamae-ts) family.
 
