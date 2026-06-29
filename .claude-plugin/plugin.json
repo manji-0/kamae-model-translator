@@ -1,0 +1,28 @@
+{
+  "name": "kamae-model-translator",
+  "description": "Kamae cross-language model porting and service interoperability skills",
+  "version": "0.1.0",
+  "author": {
+    "name": "kamae-model-translator contributors",
+    "url": "https://github.com/manji-0/kamae-model-translator"
+  },
+  "homepage": "https://github.com/manji-0/kamae-model-translator",
+  "repository": "https://github.com/manji-0/kamae-model-translator",
+  "license": "MIT",
+  "skills": [
+    "./skills/kamae-model-port",
+    "./skills/kamae-model-bridge"
+  ],
+  "keywords": [
+    "kamae",
+    "domain-modeling",
+    "cross-language",
+    "interop",
+    "porting",
+    "typescript",
+    "python",
+    "rust",
+    "scala",
+    "coding-agent"
+  ]
+}

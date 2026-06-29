@@ -1,0 +1,20 @@
+{
+  "name": "kamae-model-translator",
+  "interface": {
+    "displayName": "Kamae Model Translator"
+  },
+  "plugins": [
+    {
+      "name": "kamae-model-translator",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

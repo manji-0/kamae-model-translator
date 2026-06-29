@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "kamae-model-translator",
+  "description": "Kamae cross-language model porting and service interoperability skills",
+  "owner": {
+    "name": "kamae-model-translator contributors"
+  },
+  "plugins": [
+    {
+      "name": "kamae-model-translator",
+      "description": "Port kamae domain models between languages and define wire-format contracts for polyglot services",
+      "source": "./",
+      "category": "development",
+      "homepage": "https://github.com/manji-0/kamae-model-translator",
+      "strict": false,
+      "skills": [
+        "./skills/kamae-model-port",
+        "./skills/kamae-model-bridge"
+      ]
+    }
+  ]
+}

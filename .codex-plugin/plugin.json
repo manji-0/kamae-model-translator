@@ -1,0 +1,44 @@
+{
+  "name": "kamae-model-translator",
+  "version": "0.1.0",
+  "description": "Kamae cross-language model porting and service interoperability skills",
+  "author": {
+    "name": "kamae-model-translator contributors",
+    "url": "https://github.com/manji-0/kamae-model-translator"
+  },
+  "homepage": "https://github.com/manji-0/kamae-model-translator",
+  "repository": "https://github.com/manji-0/kamae-model-translator",
+  "license": "MIT",
+  "keywords": [
+    "kamae",
+    "domain-modeling",
+    "cross-language",
+    "interop",
+    "porting",
+    "typescript",
+    "python",
+    "rust",
+    "scala",
+    "coding-agent"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Kamae Model Translator",
+    "shortDescription": "Cross-language domain porting and service interop",
+    "longDescription": "Port kamae domain models between TypeScript, Python, Rust, and Scala while preserving type safety and invariants, and define wire-format contracts for exchanging models between polyglot services.",
+    "developerName": "kamae-model-translator contributors",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/manji-0/kamae-model-translator",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "Use $kamae-model-port to port this domain model to another kamae language.",
+      "Use $kamae-model-bridge to define the wire format for events between these polyglot services."
+    ]
+  }
+}
